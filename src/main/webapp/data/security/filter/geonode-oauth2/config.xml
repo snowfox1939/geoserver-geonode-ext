@@ -1,7 +1,7 @@
 <geoNodeOauth2Authentication>
   <id>-313f4319:15766e137c9:-8000</id>
   <name>geonode-oauth2</name>
-  <className>org.geoserver.security.oauth2.GeoServerOAuthAuthenticationFilter</className>
+  <className>org.geoserver.security.oauth2.GeoNodeOAuthAuthenticationFilter</className>
   <roleSource class="org.geoserver.security.config.PreAuthenticatedUserNameFilterConfig$PreAuthenticatedUserNameRoleSource">RoleService</roleSource>
   <userGroupServiceName>default</userGroupServiceName>
   <roleServiceName>geonode REST role service</roleServiceName>
